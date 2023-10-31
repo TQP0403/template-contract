@@ -2,7 +2,6 @@ import {HardhatRuntimeEnvironment} from 'hardhat/types'; // This adds the type f
 import {DeployFunction} from 'hardhat-deploy/types';
 
 const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
-  console.log(1)
   const {deployments, getNamedAccounts, ethers} = hre
 
   const {deploy} = deployments;

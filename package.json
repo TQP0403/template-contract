@@ -7,7 +7,7 @@
     "typechain": "hardhat typechain",
     "clean": "hardhat clean",
     "compile": "hardhat compile",
-    "deploy:lock:mumbai": "hardhat --network mumbai scripts/deploy --tags Lock",
+    "deploy:lock:mumbai": "hardhat --network mumbai deploy --tags Lock",
     "verify:lock:mumbai": "hardhat run scripts/verify/001_verify_lock.ts --network mumbai"
   },
   "dependencies": {
